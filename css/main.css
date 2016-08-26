@@ -1,0 +1,29 @@
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.fondo{
+	background-image: url("../img/large.jpg");
+	background-size: 100%;
+	opacity: 1;
+}
+.img1{
+	background-image: url("../img/sec-2.jpg");
+	background-size: 100%;
+	opacity: 2;
+}
+.border{
+	border: 2px solid white;
+}
+.opa{
+	background-color: blue;
+	opacity: 0.5;
+}
+.colorBlue{
+	color: blue;
+}
+.colorWhite{
+	color: white;
+}
