@@ -13,8 +13,8 @@ footer{
 	background-image: url("../img/large.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	opacity: 1;
-	margin-top: 15%;
+	background: rgb(0, 191, 255, 2);
+	padding-top: 15%;
 
 }
 .linea{
@@ -22,10 +22,8 @@ footer{
 	padding: 2%;
 }
 .img{
-	background-image: url("../img/escritorio.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	opacity: 2;
+	
+	opacity: 0.6;
 }
 .border{
 	border: 2px solid white;
@@ -54,7 +52,14 @@ footer{
 	box-shadow: -1px 2px 5px gray;
 	height:  50%;
 }
-.floatcenter{
-	position: relative;
-	top: 30%;
+/*Hace la imagen gris*/
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.bw:hover {
+  -webkit-filter: grayscale(100%);
 }
