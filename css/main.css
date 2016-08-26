@@ -4,14 +4,27 @@ li{
 a{
 	text-decoration: none;
 }
+footer{
+	background-color: #003366;
+	margin-top: 5%;
+
+}
 .fondo{
 	background-image: url("../img/large.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
 	opacity: 1;
+	margin-top: 15%;
+
 }
-.img1{
-	background-image: url("../img/sec-2.jpg");
+.linea{
+	display: list-item; 
+	padding: 2%;
+}
+.img{
+	background-image: url("../img/escritorio.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
 	opacity: 2;
 }
 .border{
@@ -20,10 +33,28 @@ a{
 .opa{
 	background-color: blue;
 	opacity: 0.5;
+	background-position: fixed;
+
 }
 .colorBlue{
 	color: blue;
 }
 .colorWhite{
 	color: white;
+}
+.margin{
+	margin-top: 10%;
+}
+.marg{
+	margin: 7%;
+}
+
+.radius{
+	border-radius: 100%;
+	box-shadow: -1px 2px 5px gray;
+	height:  50%;
+}
+.floatcenter{
+	position: relative;
+	top: 30%;
 }
