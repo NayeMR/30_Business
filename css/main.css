@@ -14,9 +14,8 @@ footer{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background: rgb(0, 191, 255, 2);
-	height: 90%;
-	padding-top: 27%;
-
+	padding-top: 20%;
+	background-size: fixed;
 }
 .parrafos{
 	display: inline-block;
@@ -31,8 +30,7 @@ footer{
 .opa{
 	background-color: #6699FF;
 	opacity: 0.5;
-	background-position: fixed;
-
+	margin-right: 1%;
 }
 .colorBlue{
 	color: #6699FF;
@@ -42,6 +40,9 @@ footer{
 }
 .colorNegro{
 	color: black;
+}
+.navcolor{
+	background-color: blue !important;
 }
 .margin{
 	margin-top: 10%;
