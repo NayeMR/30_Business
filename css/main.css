@@ -14,31 +14,34 @@ footer{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background: rgb(0, 191, 255, 2);
-	padding-top: 15%;
+	height: 90%;
+	padding-top: 27%;
 
 }
+.parrafos{
+	display: inline-block;
+}
 .linea{
-	display: list-item; 
-	padding: 2%;
+	display: block; 
 }
 .img{
 	
 	opacity: 0.6;
 }
-.border{
-	border: 2px solid white;
-}
 .opa{
-	background-color: blue;
+	background-color: #6699FF;
 	opacity: 0.5;
 	background-position: fixed;
 
 }
 .colorBlue{
-	color: blue;
+	color: #6699FF;
 }
 .colorWhite{
 	color: white;
+}
+.colorNegro{
+	color: black;
 }
 .margin{
 	margin-top: 10%;
@@ -46,11 +49,37 @@ footer{
 .marg{
 	margin: 7%;
 }
-
-.radius{
+.mini{
+	height: 100%;
+	width: 30%;
+	background-color:  #9CC8EC;
+	border-radius: 100%;
+	margin-bottom: 40%;
+}
+.peque{
+	height: 25%;
+	width: 40%;
+}
+.mediana{
+	height:50%;
+	width: 50%;
+}
+.ImgCirculo{
 	border-radius: 100%;
 	box-shadow: -1px 2px 5px gray;
 	height:  50%;
+}
+.cuadromodal{
+	width:43%;
+	height: 15%;
+	background-color: white;
+	position: relative;
+}
+.modalnone{
+	display: none;
+}
+.letra{
+	font-weight: bold;
 }
 /*Hace la imagen gris*/
 .bw {
